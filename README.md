@@ -1,7 +1,7 @@
 # Project 3: Third-Party Risk Management (TPRM) Program & Vendor Scoring Rubric
 
 ##  Executive Summary
-Modern enterprise operations rely heavily on third-party SaaS ecosystems, introducing significant supply chain, concentration, and data privacy risks. This project demonstrates the design of an end-to-end Vendor Security Assessment Framework implemented for a mock enterprise onboarding a critical cloud-based HR, Payroll, and Workforce Analytics platform ("TalentCloud SaaS").
+Modern enterprise operations rely heavily on third-party SaaS ecosystems, introducing significant supply chain, concentration, and data privacy risks. This project demonstrates the design of an end-to-end Vendor Security Assessment Framework implemented for a mock enterprise onboarding a critical cloud-based HR, Payroll, and Workforce Analytics platform "TalentCloud SaaS".
 
 The objective of this framework is to establish standard vendor security questionnaires, analyze external compliance documentation (SOC 2 Type II), evaluate emerging AI adoption security configurations, and issue formal Risk Scorecards to leadership with clear business-risk recommendations.
 
