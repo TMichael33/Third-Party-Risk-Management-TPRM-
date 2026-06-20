@@ -60,6 +60,20 @@ Below is the formal risk scoring evaluation and security rubric compiled followi
       <td>🔴 <b>High</b></td>
     </tr>
     <tr>
+      <td><b>Geopolitical & Data Sovereignty</b></td>
+      <td>All corporate PII and operational datasets must reside and be processed within continental U.S. boundaries (CONUS) to satisfy regulatory criteria.</td>
+      <td>• Primary cloud infrastructure is hosted in AWS US-East.<br>• <b>Finding:</b> Secondary, non-production testing environments and customer support desks operate out of high-risk offshore jurisdictions.</td>
+      <td><span style="color:orange;"><b>Conditional Pass</b></span></td>
+      <td>🟡 <b>Medium</b></td>
+    </tr>
+    <tr>
+      <td><b>API & Integration Security</b></td>
+      <td>External API integrations must utilize secure OAuth 2.0 authentication tokens, restrict permissions to least privilege, and undergo annual penetration testing.</td>
+      <td>• OAuth 2.0 token architecture verified.<br>• <b>Finding:</b> Vendor API documentation reveals a lack of automated rate-limiting, increasing susceptibility to Denial of Service (DoS) or bulk data scraping attacks.</td>
+      <td><span style="color:orange;"><b>Conditional Pass</b></span></td>
+      <td>🟡 <b>Medium</b></td>
+    </tr>
+    <tr>
       <td><b>Business Continuity</b></td>
       <td>Documented Disaster Recovery (DR) plan with an RTO ≤ 4 hours and an RPO ≤ 1 hour. Evidence of annual simulation testing required.</td>
       <td>• DR plan provided.<br>• Verified RTO of 8 hours and RPO of 2 hours during their last tested tabletop simulation. Gaps exist against internal enterprise SLAs.</td>
@@ -68,7 +82,6 @@ Below is the formal risk scoring evaluation and security rubric compiled followi
     </tr>
   </tbody>
 </table>
-
 ---
 
 ##  Executive Recommendation & Risk Treatment Plan
