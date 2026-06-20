@@ -1,13 +1,13 @@
 # Project 3: Third-Party Risk Management (TPRM) Program & Vendor Scoring Rubric
 
-##  Executive Summary
-Modern enterprise operations rely heavily on third-party SaaS ecosystems, introducing significant supply chain, concentration, and data privacy risks. This project demonstrates the design of an end-to-end Vendor Security Assessment Framework implemented for a mock enterprise onboarding a critical cloud-based HR, Payroll, and Workforce Analytics platform "TalentCloud SaaS".
+## 🏢 Executive Summary
+Modern enterprise operations rely heavily on third-party SaaS ecosystems, introducing significant supply chain, concentration, and data privacy risks. This project demonstrates the design of an end-to-end Vendor Security Assessment Framework implemented for a mock enterprise onboarding a critical cloud-based HR, Payroll, and Workforce Analytics platform "TalentCloud SaaS."
 
 The objective of this framework is to establish standard vendor security questionnaires, analyze external compliance documentation (SOC 2 Type II), evaluate emerging AI adoption security configurations, and issue formal Risk Scorecards to leadership with clear business-risk recommendations.
 
 ---
 
-##  TPRM Assessment Lifecycle
+## 🛠️ TPRM Assessment Lifecycle
 Every high-risk vendor onboarding request goes through a rigorous four-phase vetting pipeline:
 1. **Inherent Risk Triage:** Determining the types of corporate data the vendor will touch (e.g., PII, PHI, Financials, Intellectual Property).
 2. **Artifact Collection:** Gathering the vendor's SOC 2 Type II reports, penetration testing summaries, privacy policies, and business continuity plans.
@@ -16,7 +16,7 @@ Every high-risk vendor onboarding request goes through a rigorous four-phase vet
 
 ---
 
-##  Vendor Security Scorecard: "TalentCloud SaaS"
+## 📊 Vendor Security Scorecard: "TalentCloud SaaS"
 
 Below is the formal risk scoring evaluation and security rubric compiled following a detailed review of the vendor's security posture.
 
@@ -82,18 +82,21 @@ Below is the formal risk scoring evaluation and security rubric compiled followi
     </tr>
   </tbody>
 </table>
+
 ---
 
-##  Executive Recommendation & Risk Treatment Plan
+## ⚖️ Executive Recommendation & Risk Treatment Plan
 Based on the data collected in the scorecard, **TalentCloud SaaS is approved with conditional security restrictions.** The platform cannot be fully integrated into production operations until the following compensating controls are legally and technically instituted:
 
 1. **Contractual AI Data Addendum (Remediation for AI Governance):** Enterprise legal counsel must append a custom data protection rider to the Master Services Agreement (MSA). This rider must explicitly state that all corporate customer data is barred from vendor machine learning model training pipelines, overriding the platform's default opt-in settings.
 2. **Technical Module Disablement:** The IT administration team must globally disable the "AI Resume Scoring" module via centralized service configuration policies until the legal addendum is fully executed by both entities.
 3. **Sub-Processor SLA Enforcement (Remediation for IAM):** The vendor must supply a formal attestation or contractual commitment demonstrating that their database sub-processors will implement Multi-Factor Authentication (MFA) controls within 90 days. Failure to provide this artifact will result in an automatic review and termination of the software onboarding waiver.
+4. **Data Sovereignty Contractual Restriction (Remediation for Geopolitical Risk):** The vendor must contractually guarantee that any support tickets containing customer PII are strictly routed to U.S.-based technicians, and that no live production datasets are mirrored to offshore staging environments.
+5. **Compensating API Controls (Remediation for API Security):** Internal enterprise security engineers must configure our corporate Web Application Firewall (WAF) to strictly rate-limit connections communicating with the vendor’s endpoint to mitigate data exfiltration risks.
 
 ---
 
-##  Key Insights & Business Alignment
+## 💡 Key Insights & Business Alignment
 1. **The Evolution of Third-Party Risk:** TPRM is no longer just about reading traditional SOC 2 reports. The rapid integration of native AI utilities into popular SaaS platforms means modern GRC analysts must closely audit vendor AI data-retention frameworks to stop intellectual property and consumer PII leakage.
 2. **Compensating Controls Enable Business Velocity:** A rigid compliance function simply says "No" to a vendor that fails a control check, slowing down business growth. A risk-focused GRC analyst designs strategic, legally binding compensating controls that protect corporate assets while safely enabling the business to leverage new technologies.
 3. **Continuous Vendor Lifecycles:** Vendor risk management is a loop, not a linear project. High-risk platforms processing employee details require automated annual trigger reassessments, continuous dark-web leak monitoring, and immediate contractual updates whenever vendor data-sharing architectures shift.
