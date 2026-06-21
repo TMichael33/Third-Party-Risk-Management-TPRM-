@@ -1,13 +1,13 @@
 # Project 3: Third-Party Risk Management (TPRM) Program & Vendor Scoring Rubric
 
-## 🏢 Executive Summary
+## Executive Summary
 Modern enterprise operations rely heavily on third-party SaaS ecosystems, introducing significant supply chain, concentration, and data privacy risks. This project demonstrates the design of an end-to-end Vendor Security Assessment Framework implemented for a mock enterprise onboarding a critical cloud-based HR, Payroll, and Workforce Analytics platform "TalentCloud SaaS."
 
 The objective of this framework is to establish standard vendor security questionnaires, analyze external compliance documentation (SOC 2 Type II), evaluate emerging AI adoption security configurations, and issue formal Risk Scorecards to leadership with clear business-risk recommendations.
 
 ---
 
-## 🛠️ TPRM Assessment Lifecycle
+## TPRM Assessment Lifecycle
 Every high-risk vendor onboarding request goes through a rigorous four-phase vetting pipeline:
 1. **Inherent Risk Triage:** Determining the types of corporate data the vendor will touch (e.g., PII, PHI, Financials, Intellectual Property).
 2. **Artifact Collection:** Gathering the vendor's SOC 2 Type II reports, penetration testing summaries, privacy policies, and business continuity plans.
@@ -16,7 +16,7 @@ Every high-risk vendor onboarding request goes through a rigorous four-phase vet
 
 ---
 
-## 📊 Vendor Security Scorecard: "TalentCloud SaaS"
+## Vendor Security Scorecard: "TalentCloud SaaS"
 
 Below is the formal risk scoring evaluation and security rubric compiled following a detailed review of the vendor's security posture.
 
@@ -85,7 +85,7 @@ Below is the formal risk scoring evaluation and security rubric compiled followi
 
 ---
 
-## ⚖️ Executive Recommendation & Risk Treatment Plan
+## Executive Recommendation & Risk Treatment Plan
 Based on the data collected in the scorecard, **TalentCloud SaaS is approved with conditional security restrictions.** The platform cannot be fully integrated into production operations until the following compensating controls are legally and technically instituted:
 
 1. **Contractual AI Data Addendum (Remediation for AI Governance):** Enterprise legal counsel must append a custom data protection rider to the Master Services Agreement (MSA). This rider must explicitly state that all corporate customer data is barred from vendor machine learning model training pipelines, overriding the platform's default opt-in settings.
